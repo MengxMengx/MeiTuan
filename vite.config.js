@@ -7,8 +7,6 @@ export default defineConfig({
   // plugins：通过 plugins 选项可以添加 Vite 插件
   plugins: [react()],
   // 创建了一个别名 @，它指向项目根目录下的 src 文件夹,在代码中引入模块时，可以使用 @ 作为路径的前缀，代表 src 文件夹的路径。
-  base:"/MeiTuan-Takeout/",
-
   resolve: {
     alias: {
       "@": path.resolve(__dirname, 'src'),
@@ -32,7 +30,7 @@ export default defineConfig({
   },
 
   server: {
-    host: '172.31.111.100',//使用当前的IP地址，没有就是以localhost作为本地地址
+    host: '0.0.0.0',//使用当前的IP地址，没有就是以localhost作为本地地址
     // 要确保端口号 3000 在你的系统上没有被其他程序占用
     port: 3000,
     proxy: {  //配置跨域
