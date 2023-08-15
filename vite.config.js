@@ -7,7 +7,8 @@ export default defineConfig({
   // plugins：通过 plugins 选项可以添加 Vite 插件
   plugins: [react()],
   // 创建了一个别名 @，它指向项目根目录下的 src 文件夹,在代码中引入模块时，可以使用 @ 作为路径的前缀，代表 src 文件夹的路径。
-  
+  base:"/MeiTuan-Takeout/",
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, 'src'),

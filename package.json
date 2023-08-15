@@ -11,11 +11,6 @@
     "predeploy" : "npm run build",
     "deploy" : "gh-pages-d build"
   },
-  "homepage":{
-    "name":"meituan",
-    "version":"1.0.0",
-    "homepage":"http://MengxMengx.github.io/MeiTuan-Takeout",
-  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "antd-mobile": "^5.32.0",
