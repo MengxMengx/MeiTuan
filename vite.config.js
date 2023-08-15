@@ -31,7 +31,7 @@ export default defineConfig({
   },
 
   server: {
-    host: 'localhost',//使用当前的IP地址，没有就是以localhost作为本地地址
+    host: '0.0.0.0',//使用当前的IP地址，没有就是以localhost作为本地地址
     // 要确保端口号 3000 在你的系统上没有被其他程序占用
     port: 3000,
     proxy: {  //配置跨域
