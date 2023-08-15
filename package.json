@@ -1,0 +1,47 @@
+{
+  "name": "meituan",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "antd-mobile": "^5.32.0",
+    "axios": "^1.4.0",
+    "better-scroll": "^2.5.1",
+    "classnames": "^2.3.2",
+    "font-awesome": "^4.7.0",
+    "gh-pages": "^6.0.0",
+    "http-proxy-middleware": "^2.0.6",
+    "loadsh": "^0.0.4",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.1.2",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0",
+    "react-transition-group": "^4.4.5",
+    "react-weui": "^1.2.3",
+    "redux": "^4.2.1",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.2",
+    "styled-components": "^6.0.7",
+    "swiper": "^4.5.1",
+    "weui": "^2.6.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "vite": "^4.4.5"
+  }
+}
