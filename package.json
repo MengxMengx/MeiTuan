@@ -8,14 +8,16 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages-d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages-d build"
   },
+  "homepage": "https://MengxMengx.github.io/MeiTuan",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "antd-mobile": "^5.32.0",
     "axios": "^1.4.0",
     "better-scroll": "^2.5.1",
+    "build": "^0.1.4",
     "classnames": "^2.3.2",
     "font-awesome": "^4.7.0",
     "http-proxy-middleware": "^2.0.6",

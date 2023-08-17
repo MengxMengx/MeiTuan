@@ -86,7 +86,7 @@ export const Wrapper = styled.div`
   .goods .foods-wrapper .food-list .title {
     height: 0.6rem;
     font-size: 0.6rem;
-    background: url('../../../assets/images/btn_yellow_highlighted@2x.png') no-repeat left center;
+    // background: url('../../../assets/images/btn_yellow_highlighted@2x.png') no-repeat left center;
     background-size: 2px 0.45rem;
     padding-left: 0.58rem;
     margin-bottom: 0.545rem;

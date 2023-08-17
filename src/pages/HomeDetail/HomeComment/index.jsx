@@ -55,8 +55,14 @@ function HomeComment(props) {
 
             <div className="content">
               <span>{item.comment}</span>
+              {/* 
+                判断 item.user_pic_url 是否存在，如果存在，则渲染一个img图片元素
+                该图片元素有两个属性，data-src和src，其中data-src用于存储真实图片路径
+                src属性设置一个加载中的占位图或默认图片(loadingPic)
+              */}
               {item.user_pic_url &&
-                <img data-src={item.user_pic_url} src={loadingPic} />
+                // <img data-src={item.user_pic_url} src={loadingPic} />
+                <img data-src={item.user_pic_url}/>
               }
             </div>
           </div>
@@ -145,7 +151,8 @@ function HomeComment(props) {
 
                       <div className="content">
                         <span>{item.comment}</span>
-                        <img data-src={item.user_pic_url} src={loadingPic} />
+                        {/* <img data-src={item.user_pic_url} src={loadingPic} /> */}
+                        <img data-src={item.user_pic_url}/>
 
                       </div>
                     </div>

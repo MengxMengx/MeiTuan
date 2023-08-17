@@ -1,15 +1,23 @@
-import React from 'react';
+import React, { useState, useEffect, memo, useMemo } from 'react';
+import { connect } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
+//  useRef  DOM 相关
+//  useCallback 性能优化 
+import { changeEnterLoading } from './store/actionCreators'
 import { CSSTransition } from 'react-transition-group'
-import SearchContent from './SearchContent';
 import SearchBox from '@/components/common/search-box'
+import SearchContent from './SearchContent'
+import {
+    Container,
+    EnterLoading
+} from './style'
 
 const Search = () => {
     // useNavigate() 是一个 React Router 提供的钩子函数，用于获取路由导航函数
     // 通过调用 useNavigate()，你可以将返回的 navigate 函数保存在 navigate 变量中，以便后续在代码中使用该函数进行页面导航。
     const navigate = useNavigate();
 
-    const [query, setQuery] = useState('周杰伦')
+    const [query, setQuery] = useState('肯德基')
     // 创建一个state用来显示搜索界面
     const [show, setShow] = useState(true);
 

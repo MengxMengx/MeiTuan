@@ -51,12 +51,15 @@ function HomeOrder(props) {
       // console.log(anchorElement.scrollTop);
       // console.log(anchorElement);
       anchorElement && anchorElement.scrollIntoView({
+        // 滚动到可视区域的起始位置
         block: 'start',
+        // 滚动过程以平滑的方式进行
         behavior: 'smooth'
       })
     }
     return true
   }
+  
   const cartNumber = () => {
     let num = 0
     details.map((item) => {

@@ -84,7 +84,7 @@ export const Wrapper = styled.div`
            
         }
         .bgColor {
-            background:linear-gradient(to bottom ,indigo,violet);
+            background:linear-gradient(to bottom ,#fff, #linear-gradient);
         }
         
         .failScroll {

@@ -11,7 +11,7 @@ height:23rem;
     overflow: auto;
     z-index: 1;
     .search-content-box .search-content-nav {
-    color: #222426;
+    color: red;
     font-size: 3.73333333vw;
     margin: 5.33333333vw 3.2vw 3.2vw;
     font-weight: 600;
