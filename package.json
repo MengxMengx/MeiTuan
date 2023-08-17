@@ -11,7 +11,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages-d build"
   },
-  "homepage": "https://MengxMengx.github.io/MeiTuan",
+  "homepage": "https://MengxMengx.github.io/MengxMengx/MeiTuan",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "antd-mobile": "^5.32.0",
